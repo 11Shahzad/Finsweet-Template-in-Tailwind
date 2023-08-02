@@ -25,17 +25,25 @@
                     <a href="#">
                         <img src="/Images/Logo.png" />
                     </a>
-                    <nav class="lg:flex hidden gap-8 items-center leading-7 font-medium  ">
-                        <a href="/index.html">Home </a>
-                        <a href="/AboutUs.html">About us </a>
-                        <a href="/Features.html">Features </a>
-                        <a href="/Pricing.html">Pricing </a>
-                        <a href="#">FAQ </a>
-                        <a href="/Blog.html">Blog </a>
-                        <button
-                            class="box-border hover:bg-slate-600 transition-all duration-300 ease-in-out px-12 py-3 border-2 border-[#F4F6FC] rounded-[41px]">Contact
-                            US </button>
-                    </nav>
+                    <div class="relative group">
+                        <span class="md:hidden cursor-pointer">
+                            |||
+                        </span>
+                        <nav class="gap-2 whitespace-nowrap group-hover:flex right-0 hidden flex-col md:flex-row top-5 rounded-lg w-36 md:w-auto md:h-auto h-44 bg-slate-600 border md:border-none md:bg-transparent border-slate-800 p-4 absolute md:static md:flex hidden md:gap-4 lg:gap-8 items-center leading-7 font-medium opacity-[0.69]  ">
+                            <a href="/index.html">Home </a>
+                            <a href="/AboutUs.html">About us </a>
+                            <a href="/Features.html">Features </a>
+                            <a href="/Pricing.html">Pricing </a>
+                            <a href="#">FAQ </a>
+                            <a href="/Blog.html">Blog </a>
+                            <a href="/ContactUs.html">
+                                <button
+                                    class="box-border hover:bg-slate-600 transition-all duration-300 ease-in-out md:p-4 lg:px-12  lg:py-3 md:border-2 border-[#F4F6FC] rounded-[41px]">
+                                    Contact
+                                    US </button>
+                            </a>
+                        </nav>
+                    </div>
                 </div>
                 <div class="flex flex-col lg:flex-row items-center gap-[60px] mt-[126px]">
                     <div class="max-w-[582px] w-full">
@@ -45,22 +53,25 @@
                         <p class="mt-6">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
                         </p>
-                        <div class="flex gap-10 flex-col lg:flex-row mt-12">
-                            <button
-                                class="bg-[#FCD980] rounded-[41px] px-14 py-4 lg:text-lg lg:leading-8 font-semibold text-[#1B1C2B] ">View
-                                our work</button>
-                            <button class="flex items-center space-x-4 ">
-                                <span>
-
-                                    View Pricing
-                                </span>
-                                <svg width="25" height="12" viewBox="0 0 25 12" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z"
-                                        fill="#F4F6FC" />
-                                </svg>
-                            </button>
+                        <div class="flex gap-10 flex-col justify-center lg:flex-row mt-12">
+                            <a href="/Work.html">
+                                <button
+                                    class="bg-[#FCD980] w-full md:w-auto rounded-[41px] px-14 py-4 lg:text-lg lg:leading-8 font-semibold text-[#1B1C2B] ">View
+                                    our work</button>
+                            </a>
+                            <a href="/Pricing.html">
+                                <button class="flex justify-center w-full md:w-auto mt-[21px] items-center space-x-4 ">
+                                    <span>
+                                        View Pricing
+                                    </span>
+                                    <svg width="25" height="12" viewBox="0 0 25 12" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z"
+                                            fill="#F4F6FC" />
+                                    </svg>
+                                </button>
+                            </a>
                         </div>
                     </div>
                     <div>
@@ -70,7 +81,7 @@
             </div>
         </div>
         <div class="container mx-auto">
-            <div class="flex justify-between items-center mt-[96px] pb-[96px]">
+            <div class="flex justify-between md:flex flex-wrap gap-4 items-center mt-[96px] pb-[96px]">
                 <div>
                     <h2 class="text-[#282938] text-[38px] font-semibold leading-[56px]">100.000+</h2>
                     <p class="text-[#282938] opacity-[0.69]">Finsweet Users</p>
@@ -220,14 +231,14 @@
                             fill="#282938" />
                     </svg></Span>
             </div>
-            <div class="w-full flex justify-center">
+            <div class="w-full flex  justify-center">
                 <div class="w-[630px]">
                     <h1 class="text-[#282938] text-5xl font-semibold leading-[64px] text-center  ">The benefits of
                         working
                         with us</h1>
                 </div>
             </div>
-            <div class="flex justify-between">
+            <div class="flex flex-row justify-between ">
                 <div class="mt-12 bg-[#F4F6FC] w-[405px] h-[316px] pl-[48px] pt-[52px] pb-12">
                     <span><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
                             fill="none">
