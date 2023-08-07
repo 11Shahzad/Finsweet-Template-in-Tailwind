@@ -27,13 +27,15 @@
                         <span class="md:hidden cursor-pointer">
                             |||
                         </span>
-                        <nav class="gap-2 whitespace-nowrap group-hover:flex right-0 hidden flex-col md:flex-row top-5 rounded-lg w-36 md:w-auto md:h-auto h-44 bg-slate-600 border md:border-none md:bg-transparent border-slate-800 p-4 absolute md:static md:flex hidden md:gap-4 lg:gap-8 items-center leading-7 font-medium opacity-[0.69]  ">
-                            <a href="/Home.html">Home </a>
+                        <nav
+                            class="gap-2 whitespace-nowrap group-hover:flex right-0 hidden flex-col md:flex-row top-5 rounded-lg w-36 md:w-auto md:h-auto bg-slate-600 border md:border-none md:bg-transparent border-slate-800 p-4 absolute md:static md:flex hidden md:gap-4 lg:gap-8 items-center leading-7 font-medium opacity-90  ">
+                            <a href="javasript:void(0)">Home </a>
                             <a href="/AboutUs.html">About us </a>
                             <a href="/Features.html">Features </a>
                             <a href="/Pricing.html">Pricing </a>
-                            <a href="#">FAQ </a>
+                            <a href="/ContactUs.html">FAQ </a>
                             <a href="/Blog.html">Blog </a>
+                            <a class="lg:hidden block" href="/Privacy Policy.html">Privacy Policy </a>
                             <a href="/ContactUs.html">
                                 <button
                                     class="box-border hover:bg-slate-600 transition-all duration-300 ease-in-out md:p-4 lg:px-12  lg:py-3 md:border-2 border-[#F4F6FC] rounded-[41px]">
@@ -81,7 +83,7 @@
         <div class="bg-[#F4F6FC]">
             <div class="flex items-start flex-col lg:flex-row mx-auto  py-32 gap-[142px] container">
                 <div class="flex flex-col justify-start text-center  lg:max-w-[405px]">
-                    <h2 class="text-5xl leading-[64px] font-semibold">How we work</h2>
+                    <h2 class="lg:text-5xl text-2xl lg:leading-[64px] font-semibold">How we work</h2>
                     <p class="leading-7 my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                         tempor.</p>
                     <a href="/ContactUs.html"
@@ -98,7 +100,7 @@
                 <div class="flex flex-wrap flex-col md:flex-row lg:max-w-[660px] w-full">
                     <div class="flex flex-col items-center md:items-start p-4 md:max-w-[50%] lg:max-w-[328px] w-full">
                         <div style="background-image: url(Images/Mask\ Group.png);"
-                            class="text-center bg-[#2405F2] rounded-lg py-[9px] relative h-[50px] text-white text-lg leading-8 font-medium w-[50px] ">
+                            class="text-center bg-[#2405F2] rounded-lg py-[9px] relative h-[50px] text-white text-lg leading-8 font-medium w-full w-full max-w-[50px] ">
                             1
                         </div>
                         <h2 class="text-[32px] leading-8 font-medium mt-4 mb-2">Strategy</h2>
@@ -109,7 +111,7 @@
                     </div>
                     <div class="flex flex-col items-center md:items-start p-4 md:max-w-[50%] lg:max-w-[328px] w-full">
                         <div style="background-image: url(Images/Mask\ Group.png);"
-                            class="text-center bg-[#2405F2] rounded-lg py-[9px] relative h-[50px] text-white text-lg leading-8 font-medium w-[50px] ">
+                            class="text-center bg-[#2405F2] rounded-lg py-[9px] relative h-[50px] text-white text-lg leading-8 font-medium w-full w-full max-w-[50px] ">
 
                             2
                         </div>
@@ -121,7 +123,7 @@
                     </div>
                     <div class="flex flex-col items-center md:items-start p-4 md:max-w-[50%] lg:max-w-[328px] w-full">
                         <div style="background-image: url(Images/Mask\ Group.png);"
-                            class="text-center bg-[#2405F2] rounded-lg py-[9px] relative h-[50px] text-white text-lg leading-8 font-medium w-[50px] ">
+                            class="text-center bg-[#2405F2] rounded-lg py-[9px] relative h-[50px] text-white text-lg leading-8 font-medium w-full w-full max-w-[50px] ">
                             3
                         </div>
                         <h2 class="text-[32px] leading-8 font-medium mt-4 mb-2">Design</h2>
@@ -132,7 +134,7 @@
                     </div>
                     <div class="flex flex-col items-center md:items-start p-4 md:max-w-[50%] lg:max-w-[328px] w-full">
                         <div style="background-image: url(Images/Mask\ Group.png);"
-                            class="text-center bg-[#2405F2] rounded-lg py-[9px] relative h-[50px] text-white text-lg leading-8 font-medium w-[50px] ">
+                            class="text-center bg-[#2405F2] rounded-lg py-[9px] relative h-[50px] text-white text-lg leading-8 font-medium w-full w-full max-w-[50px] ">
                             4
                         </div>
                         <h2 class="text-[32px] leading-8 font-medium mt-4 mb-2">Development</h2>
@@ -144,9 +146,10 @@
                 </div>
             </div>
         </div>
-        <div class=" container mx-auto mt-32">
+        <div class=" container mx-auto lg:mt-32 mt-4">
             <div class="flex justify-between flex-col md:flex-row items-center mb-16">
-                <div class="font-semibold text-5xl md:text-left text-center leading-[64px]">View our projects</div>
+                <div class="font-semiboldtext-2xl lg:text-5xl md:text-left text-center lg:leading-[64px]">View our
+                    projects</div>
                 <button class="font-medium leading-7 mt-2 md:mt-0">
                     <a class="flex items-center gap-2" href="/Read Blog.html">View More<svg width="25" height="12"
                             viewBox="0 0 25 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -156,14 +159,14 @@
                         </svg>
                     </a></button>
             </div>
-            <div class="flex flex-col md:flex-row gap-y-4 md:gap-y-0 justify-between">
+            <div class="flex flex-col lg:flex-row gap-y-4 lg:gap-y-0 justify-between">
                 <div class="group relative cursor-pointer">
                     <div
-                        class="bg-linear flex flex-col pl-12 gap-4 text-white justify-end  absolute opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out h-full w-full md:w-[396px]">
-                        <h2 class="md:text-2xl text-xl leading-9 font-semibold">Workhub office Webflow Webflow Design
+                        class="bg-linear flex flex-col lg:px-0 lg:pl-12 px-4  gap-4 text-white justify-end  absolute opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out h-full w-full w-full lg:max-w-[396px]">
+                        <h2 class="lg:text-2xl text-xl lg:leading-9 font-semibold">Workhub office Webflow Webflow Design
                         </h2>
                         <p class="">Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam </p>
-                        <button class="font-medium leading-7 mt-6 mb-[76px]"><a
+                        <button class="font-medium leading-7 lg:mt-6 lg:mb-[76px] my-2"><a
                                 class="flex items-center text-[#FCD980] gap-2" href="#">View project<svg width="25"
                                     height="12" viewBox="0 0 25 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -198,16 +201,15 @@
                 </div>
             </div>
         </div>
-        <div class="bg-[#F4F6FC] pt-32">
+        <div class="bg-[#F4F6FC] lg:pt-32 pt-4">
             <div class="flex flex-col gap-3 items-center">
                 <div>
                     <h6>Features</h6>
                 </div>
                 <div>
                     <h2
-                        class="lg:text-5xl text-3xl lg:leading-[64px] mb-6 font-semibold max-w-[630px] w-full text-center">
-                        Design that
-                        solves problems, one product at a time
+                        class="lg:text-5xl text-2xl  lg:leading-[64px] mb-6 font-semibold max-w-[630px] w-full text-center">
+                        Design that solves problems, one product at a time
                     </h2>
                 </div>
 
@@ -215,7 +217,7 @@
             <div
                 class="container mx-auto flex flex-wrap justify-center flex-col md:flex-row gap-x-4 lg:gap-x-8 gap-y-6 pb-[128px]">
                 <div
-                    class="flex flex-col md:items-start items-center bg-white lg:pl-12 lg:pt-[58px] lg:pb-12 w-full p-4 md:w-2/5 lg:w-[405px] ">
+                    class="flex flex-col md:items-start items-center bg-white lg:pl-12 lg:pt-[58px] lg:pb-12 w-full p-4 md:w-2/5 w-full lg:max-w-[405px] ">
                     <img src="Images/Icon1.png" alt="Icon">
                     <h2 class="text-2xl font-medium leading-9 mt-5">Uses Client First</h2>
                     <p class="lg:w-80 leading-7 text-#282938">Euismod faucibus turpis eu gravida mi. Pellentesque et
@@ -225,7 +227,7 @@
                         Pellentesque et velit aliquam sed mi. </p>
                 </div>
                 <div
-                    class="flex flex-col md:items-start items-center bg-white lg:pl-12 lg:pt-[58px] lg:pb-12 p-4 w-full md:w-2/5 lg:w-[405px] ">
+                    class="flex flex-col md:items-start items-center bg-white lg:pl-12 lg:pt-[58px] lg:pb-12 p-4 w-full md:w-2/5 w-full lg:max-w-[405px] ">
                     <img src="Images/Icon2.png" alt="Icon">
                     <h2 class="text-2xl font-medium leading-9 mt-5">Two Free Revision Round</h2>
                     <p class="lg:w-80 leading-7 text-#282938">Euismod faucibus turpis eu gravida mi. Pellentesque et
@@ -235,7 +237,7 @@
                         Pellentesque et velit aliquam sed mi. </p>
                 </div>
                 <div
-                    class="flex flex-col md:items-start items-center bg-white lg:pl-12 lg:pt-[58px] lg:pb-12 p-4 w-full md:w-2/5 lg:w-[405px] ">
+                    class="flex flex-col md:items-start items-center bg-white lg:pl-12 lg:pt-[58px] lg:pb-12 p-4 w-full md:w-2/5 w-full lg:max-w-[405px] ">
                     <img src="Images/Icon3.png" alt="Icon">
                     <h2 class="text-2xl font-medium leading-9 mt-5">Template Customization</h2>
                     <p class="lg:w-80 leading-7 text-#282938">Euismod faucibus turpis eu gravida mi. Pellentesque et
@@ -245,7 +247,7 @@
                         Pellentesque et velit aliquam sed mi. </p>
                 </div>
                 <div
-                    class="flex flex-col md:items-start items-center bg-white lg:pl-12 lg:pt-[58px] lg:pb-12 p-4 w-full md:w-2/5 lg:w-[405px] ">
+                    class="flex flex-col md:items-start items-center bg-white lg:pl-12 lg:pt-[58px] lg:pb-12 p-4 w-full md:w-2/5 w-full lg:max-w-[405px] ">
                     <img src="Images/Icon 4.png" alt="Icon">
                     <h2 class="text-2xl font-medium leading-9 mt-5">24/7 Support</h2>
                     <p class="lg:w-80 leading-7 text-#282938">Euismod faucibus turpis eu gravida mi. Pellentesque et
@@ -255,7 +257,7 @@
                         Pellentesque et velit aliquam sed mi. </p>
                 </div>
                 <div
-                    class="flex flex-col md:items-start items-center bg-white lg:pl-12 lg:pt-[58px] lg:pb-12 p-4 w-full md:w-2/5 lg:w-[405px] ">
+                    class="flex flex-col md:items-start items-center bg-white lg:pl-12 lg:pt-[58px] lg:pb-12 p-4 w-full md:w-2/5 w-full lg:max-w-[405px] ">
                     <img src="Images/Icon 5.png" alt="Icon">
                     <h2 class="text-2xl font-medium leading-9 mt-5">Quick Delivery</h2>
                     <p class="lg:w-80 leading-7 text-#282938">Euismod faucibus turpis eu gravida mi. Pellentesque et
@@ -265,7 +267,7 @@
                         Pellentesque et velit aliquam sed mi. </p>
                 </div>
                 <div
-                    class="flex flex-col md:items-start items-center bg-white lg:pl-12 lg:pt-[58px] lg:pb-12 p-4 w-full md:w-2/5 lg:w-[405px] ">
+                    class="flex flex-col md:items-start items-center bg-white lg:pl-12 lg:pt-[58px] lg:pb-12 p-4 w-full md:w-2/5 w-full lg:max-w-[405px] ">
                     <img src="Images/Icon 6.png" alt="Icon">
                     <h2 class="text-2xl font-medium leading-9 mt-5">Hands-on approach</h2>
                     <p class="lg:w-80 leading-7 text-#282938">Euismod faucibus turpis eu gravida mi. Pellentesque et
@@ -283,12 +285,15 @@
         <div class="bg-[#F4F6FC] px-4 md:px-0 w-full pb-[130px]">
             <div class="container mx-auto xl:pl-[130px] flex flex-col xl:flex-row xl:space-x-[110px]">
                 <div>
-                    <h2 class="text-[38px] font-semibold leading-[56px]">What our clients say about us</h2>
+                    <h2 class="lg:text-[38px] text-2xl font-semibold lg:leading-[56px]">What our clients say about us
+                    </h2>
                     <p class="leading-7 text-[#282938]">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.
                     </p>
                 </div>
                 <div>
-                    <h2 class="lg:text-[32px] text-xl mt-4 lg:mt-0 font-medium lg:leading-[48px] lg:w-[843px]">"The
+                    <h2
+                        class="lg:text-[32px] text-xl mt-4 lg:mt-0 font-medium lg:leading-[48px] w-full lg:max-w-[843px]">
+                        "The
                         best agency we’ve worked with
                         so
                         far.
@@ -296,13 +301,13 @@
                         new
                         features with a great focus."</h2>
                     <div class="flex justify-between mt-10">
-                        <img src="/Images/pic1.png" alt="#" class="w-[50px] h-[50px] rounded-[50px] pr-2">
+                        <img src="/Images/pic1.png" alt="#" class="w-full max-w-[50px] h-[50px] rounded-[50px] lg:pr-2">
                         <div>
                             <p class="text-lg font-medium leading-8">Jenny Wilson</p>
                             <p class="text-xs font-medium leading-7">Vice President</p>
                         </div>
 
-                        <button class="bg-white lg:ml-[485px]"><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                        <button class="lg:bg-white lg:ml-[485px]"><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
                                     width="108" height="48" viewBox="0 0 108 48" fill="none">
                                     <ellipse cx="83.0997" cy="24" rx="24.0997" ry="24" fill="#5239FA" />
                                     <path
@@ -326,7 +331,8 @@
         <div
             class="container mx-auto flex xl:flex-row flex-col justify-between text-center lg:text-left xl:pl-[158px] pb-6 xl:pb-[128px]">
             <div>
-                <h2 class="text-[38px] font-semibold leading-[56px] lg:w-[328px] pt-6 lg:pt-[113px]">Frequently asked
+                <h2 class="lg:text-[38px] text-2xl font-semibold lg:leading-[56px] lg:max-w-[328px] pt-6 lg:pt-[113px]">
+                    Frequently asked
                     questions
                 </h2>
                 <a href="/ContactUs.html"><button class="text-[#2405F2] text-lg mb-6 lg:mb-0 leading-8">Contact us for
@@ -336,110 +342,120 @@
                 <div class="flex w-full  justify-between px-2 md:px-0 items-center border-b-2 border-[#ECECF1]">
                     <div class="text-[#2405F2] text-2xl font-medium leading-9 lg:pr-[58px]">01</div>
                     <div class="flex flex-col lg:pb-12 lg:pr-[100px] lg:pt-[109px] ">
-                        <h2 class="text-[#282938] text-2xl font-medium md:text-xl sm:text-lg leading-9">How much time does it take?</h2>
-                        <p class="font-medium leading-8 lg:w-[624px]">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        <h2 class="text-[#282938] text-2xl font-medium md:text-xl sm:text-lg leading-9">How much time
+                            does it take?</h2>
+                        <p class="font-medium leading-8 w-full lg:max-w-[624px]">Lorem ipsum dolor sit amet, consectetur
+                            adipiscing
                             elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                     <button>
                         <a href="#">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
-                            <path opacity="0.7"
-                                d="M12.1495 13.1605L7.12057 8.1316L1.96717 13.285L0.711315 12.0292L5.86472 6.87575L0.835794 1.84682L1.84269 0.839932L6.87161 5.86886L12.025 0.715453L13.2809 1.9713L8.12746 7.12471L13.1564 12.1536L12.1495 13.1605Z"
-                                fill="#282938" />
-                        </svg></a>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                fill="none">
+                                <path opacity="0.7"
+                                    d="M12.1495 13.1605L7.12057 8.1316L1.96717 13.285L0.711315 12.0292L5.86472 6.87575L0.835794 1.84682L1.84269 0.839932L6.87161 5.86886L12.025 0.715453L13.2809 1.9713L8.12746 7.12471L13.1564 12.1536L12.1495 13.1605Z"
+                                    fill="#282938" />
+                            </svg></a>
                     </button>
                 </div>
                 <div
                     class="flex w-full justify-between px-2 md:px-0  items-center border-b-2 border-[#ECECF1] pb-[32px] pt-[32px]">
                     <div class="text-[#2405F2] text-2xl font-medium leading-9 lg:pr-[58px]">02</div>
-                    <h2 class="flex-1 text-[#282938] text-2xl font-medium md:text-xl leading-9">What is your class naming
+                    <h2 class="flex-1 text-[#282938] text-2xl font-medium md:text-xl leading-9">What is your class
+                        naming
                         convention?</h2>
                     <button>
                         <a href="#">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                            <path opacity="0.7"
-                                d="M16 8.71198H8.88802V16H7.11198V8.71198H0V7.28802H7.11198V0H8.88802V7.28802H16V8.71198Z"
-                                fill="#282938" />
-                        </svg></a>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
+                                fill="none">
+                                <path opacity="0.7"
+                                    d="M16 8.71198H8.88802V16H7.11198V8.71198H0V7.28802H7.11198V0H8.88802V7.28802H16V8.71198Z"
+                                    fill="#282938" />
+                            </svg></a>
                     </button>
                 </div>
                 <div class="flex w-full justify-between px-2 md:px-0  border-b-2 border-[#ECECF1] pb-[32px] pt-[32px]">
                     <div class="text-[#2405F2] text-2xl font-medium leading-9 lg:pr-[58px]">03</div>
-                    <h2 class="text-[#282938] text-2xl font-medium leading-9 md:text-xl lg:pr-[383px]">How do you communicate?
+                    <h2 class="text-[#282938] text-2xl font-medium leading-9 md:text-xl lg:pr-[383px]">How do you
+                        communicate?
                     </h2>
                     <button>
                         <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
-                            fill="none">
-                            <path opacity="0.7"
-                                d="M16 8.71198H8.88802V16H7.11198V8.71198H0V7.28802H7.11198V0H8.88802V7.28802H16V8.71198Z"
-                                fill="#282938" />
-                        </svg>
-                    </a></button>
+                                fill="none">
+                                <path opacity="0.7"
+                                    d="M16 8.71198H8.88802V16H7.11198V8.71198H0V7.28802H7.11198V0H8.88802V7.28802H16V8.71198Z"
+                                    fill="#282938" />
+                            </svg>
+                        </a></button>
                 </div>
                 <div class="flex w-full justify-between px-2 md:px-0  border-b-2 border-[#ECECF1] pb-[32px] pt-[32px]">
                     <div class="text-[#2405F2] text-2xl font-medium leading-9 lg:pr-[58px]">04</div>
-                    <h2 class="text-[#282938] text-2xl font-medium leading-9 md:text-xl lg:pr-[201px]">I have a bigger project.
+                    <h2 class="text-[#282938] text-2xl font-medium leading-9 md:text-xl lg:pr-[201px]">I have a bigger
+                        project.
                         Can you handle it?
                     </h2>
                     <button>
                         <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
-                            fill="none">
-                            <path opacity="0.7"
-                                d="M16 8.71198H8.88802V16H7.11198V8.71198H0V7.28802H7.11198V0H8.88802V7.28802H16V8.71198Z"
-                                fill="#282938" />
-                        </svg></a>
+                                fill="none">
+                                <path opacity="0.7"
+                                    d="M16 8.71198H8.88802V16H7.11198V8.71198H0V7.28802H7.11198V0H8.88802V7.28802H16V8.71198Z"
+                                    fill="#282938" />
+                            </svg></a>
                     </button>
                 </div>
                 <div class="flex w-full justify-between px-2 md:px-0  pt-8">
                     <div class="text-[#2405F2] text-2xl font-medium leading-9 lg:pr-[58px]">05</div>
-                    <h2 class="text-[#282938] text-2xl font-medium leading-9 md:text-xl lg:pr-[241px]">What is your class
+                    <h2 class="text-[#282938] text-2xl font-medium leading-9 md:text-xl lg:pr-[241px]">What is your
+                        class
                         naming
                         convention?
                     </h2>
                     <button>
                         <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
-                            fill="none">
-                            <path opacity="0.7"
-                                d="M16 8.71198H8.88802V16H7.11198V8.71198H0V7.28802H7.11198V0H8.88802V7.28802H16V8.71198Z"
-                                fill="#282938" />
-                        </svg></a></button>
+                                fill="none">
+                                <path opacity="0.7"
+                                    d="M16 8.71198H8.88802V16H7.11198V8.71198H0V7.28802H7.11198V0H8.88802V7.28802H16V8.71198Z"
+                                    fill="#282938" />
+                            </svg></a></button>
                 </div>
             </div>
 
         </div>
-        <div class=" container mx-auto bg-[url('/Images/pic2.jpg')] lg:w-[1280px] lg:h-[691px]">
+        <div class=" container mx-auto bg-[url('/Images/pic2.jpg')] w-full lg:max-w-[1280px] lg:h-[691px]">
             <div class="flex w-full flex-col text-center lg:text-left lg:flex-row justify-between ">
                 <div>
                     <h2
-                        class="text-white lg:text-[54px] font-semibold text-2xl lg:leading-[74px] lg:w-[516px] lg:pl-24 pl-6 pt-6 lg:pt-24">
+                        class="text-white lg:text-[54px] font-semibold text-2xl lg:leading-[74px] w-full lg:max-w-[516px] lg:pl-24 pl-6 pt-6 lg:pt-24">
                         Building stellar websites for early startups</h2>
-                    <p class="text-white font-medium leading-7  pb-6 lg:pb-0 lg:w-[516px] lg:pl-24 pt-[24px]">Lorem
+                    <p
+                        class="text-white font-medium leading-7  pb-6 lg:pb-0 w-full lg:max-w-[516px] lg:pl-24 pt-[24px]">
+                        Lorem
                         ipsum dolor sit
                         amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                         ut labore et dolore magna aliqua ut enim.</p>
                 </div>
-                <div class="bg-[#1C1E53] lg:w-[640px] lg:h-[691px] lg:pl-24 p-8 lg:p-0">
+                <div class="bg-[#1C1E53] w-full lg:max-w-[640px] lg:h-[691px] lg:pl-24 p-8 lg:p-0">
                     <div>
                         <h2 class="text-white lg:text-[32px] text-xl font-medium lg:leading-[48px] lg:pt-24">Send
                             inquiry</h2>
-                        <p class="text-gray-50 font-medium leading-[28px]  lg:w-[432px]">Lorem ipsum dolor sit
+                        <p class="text-gray-50 font-medium leading-[28px]  w-full lg:max-w-[432px]">Lorem ipsum dolor
+                            sit
                             amet, consectetur adipiscing elit, sed do eiusmod tempor
                             incididunt ut labore.</p>
                         <input type="text"
-                            class="lg:w-[432px] w-full h-[64px] text-gray-50 leading-7 opacity-[0.5] bg-transparent  border-solid-[2px] border-white rounded-lg "
+                            class="w-full lg:max-w-[432px] w-full h-[64px] text-gray-50 leading-7 opacity-[0.5] bg-transparent  border-solid-[2px] border-white rounded-lg "
                             placeholder="Your Name">
                         <input type="email"
-                            class="lg:w-[432px]  w-full h-[64px] text-gray-50 leading-7 opacity-[0.5] bg-transparent  border-solid-[2px] border-white rounded-lg "
+                            class="w-full lg:max-w-[432px]  w-full h-[64px] text-gray-50 leading-7 opacity-[0.5] bg-transparent  border-solid-[2px] border-white rounded-lg "
                             placeholder="Email">
                         <input type="text"
-                            class="lg:w-[432px]  w-full h-[64px] text-gray-50 leading-7 opacity-[0.5] bg-transparent  border-solid-[2px] border-white rounded-lg "
+                            class="w-full lg:max-w-[432px]  w-full h-[64px] text-gray-50 leading-7 opacity-[0.5] bg-transparent  border-solid-[2px] border-white rounded-lg "
                             placeholder="Paste your Figma design URL">
-                        <button class="bg-[#FCD980] lg:w-[432px]  w-full h-[64px] rounded-[41px] mt-[39px]">Send an
-                            Inquiry</button>
+                        <button class="bg-[#FCD980] w-full lg:max-w-[432px] w-full h-[64px] rounded-[41px] mt-[39px]">
+                            Send an Inquiry</button>
                         <a href="/Read Case Studies.html"
                             class="flex items-center text-white justify-center md:justify-start text-lg font-medium leading-8 pt-7 lg:pl-[100px]">Get
-                            in touch with
-                            us &nbsp;
+                            in touch with us &nbsp;
                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="12" viewBox="0 0 25 12"
                                 fill="none">
                                 <path
@@ -451,8 +467,8 @@
                 </div>
             </div>
         </div>
-        <div class="container mx-auto mt-32 mb-[132px]">
-            <h1 class="text-5xl font-semibold leading-[64px] md:pl-[130px]">Our blog</h1>
+        <div class="container mx-auto  my-6 lg:mt-32  lg:mb-[132px]">
+            <h1 class="lg:text-5xl text-2xl font-semibold lg:leading-[64px] md:pl-[130px]">Our blog</h1>
             <div class="flex justify-between gap-4 flex-col md:flex-row xl:pl-[130px] xl:pr-[125px]">
                 <div class="md:w-[405px]">
                     <img src="/Images/pic3.png" alt="#" class="mt-16">
@@ -479,14 +495,14 @@
                         person consultancy from $0-100K in 14 months</h2>
                     <p class="mt-4">See how pivoting to Webflow changed one person’s sales strategy and allowed him to
                         attract</p>
-                        <a href="#"><button class="flex items-center gap-3 mt-8 ">
-                        <span>Read More</span><svg xmlns="http://www.w3.org/2000/svg" width="25" height="12"
-                            viewBox="0 0 25 12" fill="none">
-                            <path
-                                d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z"
-                                fill="#282938" />
-                        </svg>
-                    </button></a>
+                    <a href="#"><button class="flex items-center gap-3 mt-8 ">
+                            <span>Read More</span><svg xmlns="http://www.w3.org/2000/svg" width="25" height="12"
+                                viewBox="0 0 25 12" fill="none">
+                                <path
+                                    d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z"
+                                    fill="#282938" />
+                            </svg>
+                        </button></a>
                 </div>
                 <div class="md:w-[405px]">
                     <img src="/Images/pic5.png" alt="#" class="mt-16">
@@ -495,14 +511,14 @@
                         person consultancy from $0-100K in 14 months</h2>
                     <p class="mt-4">See how pivoting to Webflow changed one person’s sales strategy and allowed him to
                         attract</p>
-                        <a href="#"> <button class="flex items-center gap-3 mt-8 ">
-                        <span>Read More</span><svg xmlns="http://www.w3.org/2000/svg" width="25" height="12"
-                            viewBox="0 0 25 12" fill="none">
-                            <path
-                                d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z"
-                                fill="#282938" />
-                        </svg>
-                    </button></a>
+                    <a href="#"> <button class="flex items-center gap-3 mt-8 ">
+                            <span>Read More</span><svg xmlns="http://www.w3.org/2000/svg" width="25" height="12"
+                                viewBox="0 0 25 12" fill="none">
+                                <path
+                                    d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z"
+                                    fill="#282938" />
+                            </svg>
+                        </button></a>
                 </div>
             </div>
         </div>
@@ -512,14 +528,15 @@
                     <a href="#">
                         <img src="/Images/Logo.png" />
                     </a>
-                    <p class="text-white pt-6 w-[400px] opacity-[0.8]">We are always open to discuss your project and
-                        improve your online presence.</p>
-                    <div class="flex justify-between lg:w-[517px] px-4 md:px-0 h-[95px] bg-[#FCD980] mt-[100px]">
-                        <div class="pl-5 pt-4">
+                    <p class="text-white pt-6 w-full max-w-[400px] w-full opacity-[0.8]">We are always open to
+                        discuss your project and improve your online presence.</p>
+                    <div
+                        class="flex justify-between w-full max-w-[517px] gap-2 px-4 md:px-0 lg:h-[95px] bg-[#FCD980] mt-[100px]">
+                        <div class="lg:pl-5 pt-4 max-w-[50%] w-full">
                             <p class="text-[#282938] text-lg font-medium leading-8">Email me at</p>
-                            <p class="text-[#282938] opacity-[0.8]">contact@website.com</p>
+                            <p class="text-[#282938] break-all opacity-[0.8]">contact@website.com</p>
                         </div>
-                        <div class="md:pr-[137px] pt-4">
+                        <div class="lg:pr-[137px] pt-4 max-w-[50%] w-full">
                             <p class="text-[#282938] text-lg font-medium leading-8">Call us</p>
                             <p class="text-[#282938] opacity-[0.8]">0927 6277 28525</p>
                         </div>
@@ -527,8 +544,9 @@
 
                 </div>
                 <div class="xl:pr-[130px] xl:pt-[104px] py-10 xl:pb-0">
-                    <h2 class="text-white text-5xl font-semibold leading-[64px]">Lets Talk!</h2>
-                    <p class="text-white pt-6 w-[400px] opacity-[0.8]">We are always open to discuss your project,
+                    <h2 class="text-white text-2xl lg:text-5xl font-semibold lg:leading-[64px]">Lets Talk!</h2>
+                    <p class="text-white pt-6 lg:w-full max-w-[400px] opacity-[0.8]">We are always open to discuss your
+                        project,
                         improve your online presence and help with your
                         UX/UI design challenges.</p>
                     <div class="flex gap-5 pt-8">

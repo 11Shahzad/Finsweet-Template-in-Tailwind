@@ -20,63 +20,76 @@
     <div class=" font-[poppins]">
 
         <div class="bg-[#1C1E53] px-6 lg:px-40 text-white">
-            <div class="bg-[#1C1E53]">
-                <div class="container mx-auto flex w-full py-4 justify-between items-center">
-                    <a href="#">
-                        <img src="/Images/Logo.png" />
-                    </a>
-                    <nav class="flex text-white gap-8 items-center leading-7 font-medium">
+            <div class="flex w-full py-4 justify-between items-center">
+                <a href="#">
+                    <img src="/Images/Logo.png" />
+                </a>
+                <div class="relative group">
+                    <span class="md:hidden cursor-pointer">
+                        |||
+                    </span>
+                    <nav
+                        class="gap-2 z-10 whitespace-nowrap group-hover:flex right-0 hidden flex-col md:flex-row top-5 rounded-lg w-36 md:w-auto md:h-auto bg-slate-600 border md:border-none md:bg-transparent border-slate-800 p-4 absolute md:static md:flex hidden md:gap-4 lg:gap-8 items-center leading-7 font-medium opacity-90  ">
                         <a href="/Home.html">Home </a>
                         <a href="/AboutUs.html">About us </a>
                         <a href="/Features.html">Features </a>
                         <a href="/Pricing.html">Pricing </a>
                         <a href="#">FAQ </a>
                         <a href="/Blog.html">Blog </a>
-                        <button
-                            class="box-border hover:bg-slate-600 transition-all duration-300 ease-in-out px-12 py-3 border-2 border-[#F4F6FC] rounded-[41px]">Contact
-                            US </button>
+                        <a href="/ContactUs.html">
+                            <button
+                                class="box-border hover:bg-slate-600 transition-all duration-300 ease-in-out md:p-4 lg:px-12  lg:py-3 md:border-2 border-[#F4F6FC] rounded-[41px]">
+                                Contact
+                                US </button>
+                        </a>
                     </nav>
                 </div>
             </div>
         </div>
         <div class="container mx-auto">
-            <div class="flex flex-col justify-center items-center mt-[128px]">
-                <h1 class="text-[#282938] text-[48px] font-semibold leading-[64px] ">Contact Us</h1>
-                <p class="text-[#282938] text-[16px] leading-7 opacity-[0.69] pt-4 w-[562px] text-center ">Lorem ipsum
+            <div class="flex flex-col justify-center items-center mt-6 lg:mt-[128px]">
+                <h1 class="text-[#282938] lg:text-[48px] font-semibold text2xl  lg:leading-[64px] ">Contact Us</h1>
+                <p class="text-[#282938] text-[16px] leading-7 opacity-[0.69] pt-4 w-full lg:max-w-[562px] text-center ">Lorem
+                    ipsum
                     dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
                 </p>
             </div>
         </div>
-        <div class="container mx-auto">
-            <div class=" bg-[#F4F6FC] w-[1061px] h-[640px] px-[77px] pb-0 ml-[270px] mt-[64px] mb-[128px]">
-                <div class="flex flex-wrap gap-10">
-                    <div class="">
-                        <p class="text-[#282938] text-[18px] font-medium leading-8 pt-[55px]">Name</p>
-                        <input type="text" placeholder="Enter your name"
-                            class="pl-8 border border-[1px] bg-transparent w-[400px] h-[50px] rounded-[8px] ">
+        <div class="container mx-auto lg:mb-32 mb-4 mt-16">
+            <div class=" bg-[#F4F6FC] lg:px-[77px] lg:py-[55px] p-4  mx-auto max-w-[1061px] w-full">
+                <div class="flex flex-col gap-10">
+                    <div class="flex gap-8 flex-col lg:flex-row">
+                        <div class="w-full">
+                            <p class="text-[#282938] text-[18px] mb-1.5 font-medium leading-8 ">Name</p>
+                            <input type="text" placeholder="Enter your name"
+                                class="lg:px-8 px-2 border border bg-transparent w-full py-3 rounded-lg ">
+                        </div>
+                        <div class="w-full">
+                            <p class=" text-[#282938] text-[18px] mb-1.5 font-medium leading-8">Email</p>
+                            <input type="text" placeholder="Enter your Email"
+                                class="lg:px-8 px-2 border border bg-transparent w-full py-3 rounded-lg ">
+                        </div>
                     </div>
-                    <div class=" ">
-                        <p class="pt-[55px] text-[#282938] text-[18px] font-medium leading-8">Email</p>
-                        <input type="text" placeholder="Enter your Email"
-                            class="pl-8 border border-[1px] bg-transparent w-[400px] h-[50px] rounded-[8px] ">
+                    <div class="flex gap-8 flex-col lg:flex-row">
+                        <div class="w-full">
+                            <p class="  text-[#282938] text-[18px] mb-1.5 font-medium leading-8">Subject</p>
+                            <input type="text" placeholder="Provide context"
+                                class="lg:px-8 px-2 border border bg-transparent w-full py-3 rounded-lg ">
+                        </div>
+                        <div class="w-full">
+                            <p class="text-[#282938] text-[18px] mb-1.5 font-medium leading-8">Subject</p>
+                            <input type="text" placeholder="Select Subject"
+                                class="lg:px-8 px-2 border border bg-transparent w-full py-3 rounded-lg ">
+                        </div>
                     </div>
-                    <div class=" ">
-                        <p class="  text-[#282938] text-[18px] font-medium leading-8">Subject</p>
-                        <input type="text" placeholder="Provide context"
-                            class="pl-8 border border-[1px] bg-transparent w-[400px] h-[50px] rounded-[8px] ">
+                    <div class="w-full">
+                        <p class="text-[#282938] text-[18px] mb-1.5 font-medium leading-8">Message</p>
+                        <textarea type="text" placeholder="Write your  question here"
+                            class="lg:px-8 px-2 lg:pb-[75px] border border bg-transparent w-full lg:max-w-[908px] h-[138px] rounded-lg "></textarea>
                     </div>
-                    <div class=" ">
-                        <p class="text-[#282938] text-[18px] font-medium leading-8">Subject</p>
-                        <input type="text" placeholder="Select Subject"
-                            class="pl-8 border border-[1px] bg-transparent w-[400px] h-[50px] rounded-[8px] ">
-                    </div>
-                    <div class="">
-                        <p class="text-[#282938] text-[18px] font-medium leading-8">Message</p>
-                        <input type="text" placeholder="Write your  question here"
-                            class="pl-8 pb-[75px] border border-[1px] bg-transparent w-[908px] h-[138px] rounded-[8px] ">
-                    </div>
-                    <a href="#"><button class="text-[18px] text-[#F4F6FC] mt-4 bg-[#282938] w-[254px] h-[64px] rounded-[41px]">Send
-                        Messege</button></a>
+                    <a href="#"><button
+                            class="text-[18px] text-[#F4F6FC] mt-4 bg-[#282938] w-full lg:max-w-[254px] py-4 rounded-[41px]">Send
+                            Messege</button></a>
 
                 </div>
             </div>
@@ -87,23 +100,24 @@
                     <a href="#">
                         <img src="/Images/Logo.png" />
                     </a>
-                    <p class="text-white pt-6 w-[400px] opacity-[0.8]">We are always open to discuss your project and
+                    <p class="text-white pt-6 max-w-[400px] w-full opacity-[0.8]">We are always open to discuss your
+                        project and
                         improve your online presence.</p>
-                    <div class="flex justify-between lg:w-[517px] h-[95px] bg-[#FCD980] mt-[100px]">
+                    <div class="flex justify-between w-full lg:max-w-[517px] px-4 md:px-0 h-[95px] bg-[#FCD980] mt-[100px]">
                         <div class="pl-5 pt-4">
                             <p class="text-[#282938] text-lg font-medium leading-8">Email me at</p>
                             <p class="text-[#282938] opacity-[0.8]">contact@website.com</p>
                         </div>
-                        <div class="pr-[137px] pt-4">
+                        <div class="md:pr-[137px] pt-4">
                             <p class="text-[#282938] text-lg font-medium leading-8">Call us</p>
                             <p class="text-[#282938] opacity-[0.8]">0927 6277 28525</p>
                         </div>
                     </div>
 
                 </div>
-                <div class="lg:pr-[130px] lg:pt-[104px] py-10 lg:pb-0">
-                    <h2 class="text-white text-5xl font-semibold leading-[64px]">Lets Talk!</h2>
-                    <p class="text-white pt-6 w-[400px] opacity-[0.8]">We are always open to discuss your project,
+                <div class="xl:pr-[130px] xl:pt-[104px] py-10 xl:pb-0">
+                    <h2 class="text-white text-2xl lg:text-5xl font-semibold lg:leading-[64px]">Lets Talk!</h2>
+                    <p class="text-white pt-6 w-full lg:max-w-[400px] opacity-[0.8]">We are always open to discuss your project,
                         improve your online presence and help with your
                         UX/UI design challenges.</p>
                     <div class="flex gap-5 pt-8">
@@ -173,16 +187,16 @@
             class="container mx-auto flex py-10 lg:py-0 justify-between lg:h-24 items-center lg:pl-[130px] lg:pr-[125px]">
             <p>Copyright 2022, Finsweet.com</p>
             <div class="group relative">
-                <span class="lg:hidden cursor-pointer ">
+                <span class="lg:hidden cursor-pointer">
                     |||
                 </span>
                 <nav
                     class="lg:space-x-5  group-hover:flex right-0 hidden flex-col lg:flex-row bottom-5 rounded-lg w-36 lg:w-auto lg:h-auto h-44 bg-white border lg:border-none lg:bg-transparent border-slate-800 p-4 absolute lg:static lg:flex">
-                    <a href="/Home.html">Home</a>
+                    <a href="/index.html">Home</a>
                     <a href="/AboutUs.html">About us</a>
                     <a href="/Features.html">Features</a>
                     <a href="/Pricing.html">Pricing</a>
-                    <a href="#">FAQ</a>
+                    <a href="/ContactUs.html">FAQ</a>
                     <a href="/Blog.html">Blog</a>
                 </nav>
             </div>
